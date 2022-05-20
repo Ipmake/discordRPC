@@ -66,6 +66,10 @@ async function select(name) {
                 connection.setActivity(activity);
                 document.getElementById(name).style.backgroundColor = 'rgba(4, 0, 255, 0.295)'
                 connection.name = name
+                if(data.run){
+                    var spawn = require("child_process").spawn
+                    spawn(data.run, [], {shell: false})
+                }
             })
         } else if (result.isDenied) {
           Swal.fire('Canceled', '', 'info')

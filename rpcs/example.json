@@ -12,5 +12,7 @@
     "buttons": [
         { "label": "Example", "url": "https://example.com" }
     ],
-    "instance": true
+    "instance": true,
+
+    "run": "C:/Windows/notepad.exe"
 }

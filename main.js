@@ -27,7 +27,7 @@ function createWindow () {
 
   // and load the index.html of the app.
   mainWindow.loadFile('index.html')
-  Menu.setApplicationMenu(null)
+  // Menu.setApplicationMenu(null)
   tray = new Tray(path.join(__dirname, 'icon.png'));
 
   tray.setContextMenu(Menu.buildFromTemplate([
