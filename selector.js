@@ -76,4 +76,4 @@ async function select(name) {
 function openDir(){
     let spawn = require("child_process").spawn
     shell.openExternal('file://' + process.cwd()+'/rpcs')
-}#
+}
