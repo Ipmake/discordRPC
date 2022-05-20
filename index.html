@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+
+    <title>Discord RPC</title>
+  </head>
+  <style>
+    button {
+      background-color: transparent;
+      border: none;
+      color: white;
+      text-align: center;
+      overflow: hidden;
+    white-space: nowrap;
+    display: block;
+    text-overflow: ellipsis;
+    }
+
+    li{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 90%;
+      border-radius:20px;
+    }
+
+    li:hover{
+      border:1px solid white;
+    }
+  </style>
+  <body>
+    <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 100%; height: 100vh; overflow-y: scroll; overflow-x: hidden;">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+        <img src="http://cdn.ipgg.net/IPGsystems.png" class="rounded-circle me-2" width="50" height="50"/><span class="fs-4">DiscordRPC</span>
+      </a>
+      <hr>
+      <ul class="nav nav-pills flex-column mb-auto" style="display: flex; flex-direction: column; align-items: center; height: 100%;" id="list">
+        <div style="display: flex; flex-direction: row; gap:20px">
+          <button type="button" class="btn btn-primary" style="margin-bottom: 20px;" onclick="openDir()">Open Directory</button> 
+          <button type="button" class="btn btn-primary" style="margin-bottom: 20px;" onclick="window.location.reload()">Refresh</button> 
+        </div>
+      </ul>
+      <hr>
+    </div>
+
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+
+    <script src="./selector.js"></script>
+    <script src="./renderer.js"></script>
+  </body>
+</html>

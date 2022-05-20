@@ -1,0 +1,37 @@
+{
+  "name": "discordrpc",
+  "version": "1.0.0",
+  "description": "A simple discordRPC client",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "repository": "https://github.com/electron/electron-quick-start",
+  "keywords": [
+      "discord",
+      "rpc",
+      "rpc-client"
+  ],
+  "author": "IPGsystems",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.2.4"
+  },
+  "dependencies": {
+    "discord-rpc": "^4.0.1",
+    "fs": "^0.0.1-security",
+    "sweetalert2": "^11.4.14"
+  },
+  "build": {
+    "appId": "net.ipgg.discordrpc",
+    "productName": "Discord RPC",
+    "mac": {
+      "category": "net.ipgg.discord.rpc"
+    },
+    "extraFiles": [
+      "rpcs"
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+    "name": "Example",
+    "clientID": "",
+    "detail": "This is an example",
+    "state": "This is an example",
+    "assets": {
+        "large_image": "",
+        "large_text": "",
+        "small_image": "",
+        "small_text": ""
+    },
+    "buttons": [
+        { "label": "Example", "url": "https://example.com" }
+    ],
+    "instance": true
+}
