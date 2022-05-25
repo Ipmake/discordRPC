@@ -1,4 +1,4 @@
-# discordRPC
+# IPG's discordRPC client
 A simple but effective Discord RPC client for customizing your discord status even more.
 
 ## Features
