@@ -2,7 +2,7 @@
 A simple but effective Discord RPC client for customizing your discord status even more.
 
 ## Features
-- Premade status files for games
+- Premade status files for games and other applications
 - Automaticly open application when starting a status
 - complete customization
 - No Watermark on your discord status
